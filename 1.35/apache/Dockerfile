@@ -1,6 +1,7 @@
 FROM php:7.3-apache
 
 # System dependencies
+USER root:root
 RUN set -eux; \
 	\
 	apt-get update; \
